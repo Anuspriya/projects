@@ -90,7 +90,7 @@ export default function Home() {
             </p>
           </a>
 
-          <a
+          {/* <a
             href="/article"
             className={styles.card}
             target="_blank"
@@ -102,7 +102,7 @@ export default function Home() {
             <p className={inter.className}>
               View all articles
             </p>
-          </a>
+          </a> */}
         </div>
       </main>
     </div>

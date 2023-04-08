@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -90,19 +89,6 @@ export default function Home() {
             </p>
           </a>
 
-          {/* <a
-            href="/article"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Articles
-            </h2>
-            <p className={inter.className}>
-              View all articles
-            </p>
-          </a> */}
         </div>
       </main>
     </div>

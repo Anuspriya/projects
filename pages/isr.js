@@ -1,15 +1,9 @@
 import React from 'react'
 import {format} from 'date-fns'
 import BackButton from '@/components/BackButton'
-import { useState } from 'react'
 import Head from 'next/head'
 
 const isr = ({res}) => {
-    const [num,setNum] = useState(0)
-
-    const handleClick = () =>{
-        setNum(num + 1)
-    }
   return (
     <div>
     <Head>
@@ -22,8 +16,6 @@ const isr = ({res}) => {
     </div><br/><br/>
     <div style={{textAlign:'center'}}>
      <h5>Current Date and Time is </h5><span>{res}</span><br/><br/>
-     <button className="btn1" onClick={handleClick}>Click</button>
-    <p>{num}</p>
    </div>
     </div>
   )

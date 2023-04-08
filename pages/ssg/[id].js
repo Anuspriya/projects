@@ -5,7 +5,6 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 const ssgid = ({res,post}) => {
-  console.log('post',post)
   return (
     <div>
     <Head>
